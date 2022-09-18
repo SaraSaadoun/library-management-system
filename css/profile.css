@@ -1,0 +1,16 @@
+.avatar {
+    width:270px;
+    height:270px;
+    border-radius:50% ;
+}
+
+form {
+    position: relative;
+}
+
+.submit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px
+}

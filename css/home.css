@@ -1,0 +1,175 @@
+.bg {
+    display: block;
+    height: fit-content;
+    font-size: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #F24C4C;
+    background-color: #e1d5d5;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.search-box, .search {
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    opacity: 80%;
+    margin: 0 10px;
+}
+
+.search-box {
+    width: 400px;
+    font-size: 20px;
+
+}
+
+.search-box:focus{
+    outline: none;
+}
+
+.search {
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #F24C4C;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+
+}
+
+.search:hover {
+    background-color:#DA2D2D;
+}
+
+.books-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+    background-color: #F3F3F3;
+    opacity: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 190px;
+    height: 320px;
+    margin: 30px;
+    box-shadow: 10px 10px 30px lightgrey;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.book-card:hover {
+    transform: translate(0, -20px);
+    transition: transform 0.2s ease-in-out;
+}
+
+p {
+    margin: 0;
+    margin: 10px 0 15px 0;
+    font-size: 15px;
+    font-weight: lighter;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bk-img {
+    margin: 0;
+    width: 100%;
+    height: 40%;
+    border-radius:5px 5px 0 0;
+    flex: 3;
+    opacity: 90%;
+}
+
+.bk-img:hover {
+    opacity: 100%;
+}
+
+.title {
+    font-size: larger;
+    color: rgb(237, 60, 33);
+}
+
+.moreinfo {
+    padding: 5px;
+    text-decoration: none;
+    color: #1a237e;
+    font-size: 17px;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
+.moreinfo:hover {
+    font-weight: bold;
+}
+
+.btns {
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.delete, .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+.delete:hover {
+    background-color: #DA2D2D;
+}
+
+.edit:hover {
+    background-color: #1c1b2a;
+}
+
+.delete {
+    text-decoration: none;
+    background-color: #F24C4C;
+}
+
+.edit {
+    background-color: #302f3e;
+}
+
+.edit img {
+    width: 35px;
+    height: 35px;
+}
+
+.add {
+    width: 100%;
+    height: fit-content;
+}
