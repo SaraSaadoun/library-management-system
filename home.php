@@ -42,11 +42,11 @@
         <header>
             <div class="logo-section">
                 <img class="logo"src="imgs/logo.png">
-                <span><a class="header-name" href="home.php">Online Library</a></span>
+                <span><a class="header-name" href="home.php">Online<br> Library</a></span>
             </div>
             <div class="upper-right-btns">
                 <a class="profile" href="profileCard.php?id=<?=$rowUser['id']?>"><img class="profile-img"src="imgs/users/<?=$rowUser['avatar']?>"></a>
-                <a class="logout" href="logout.php">Logout</a>
+                <a class="logout" href="logout.php"><img alt="Logout" src="imgs/logout.png"></a>
             </div>
         </header>
 
@@ -89,7 +89,7 @@
                  <?php } ?>
             </div>
         </div>
-        <footer>All copyrights are preserved CC <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script></footer>
+        <footer>Copyright © <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script> All Rights Reserved</footer>
 
     </body>
 </html>

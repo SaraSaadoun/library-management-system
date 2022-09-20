@@ -4,8 +4,14 @@ form {
     align-items: center;
     height: fit-content;
     padding: 40px;
-    background-color: #EBE6E6;
+    background-color: #fff;
     border-radius: 5px;
+    box-shadow: 10px 10px 30px lightgrey;
+
+}
+h2 {
+    text-align: center;
+
 }
 
 .field {
@@ -27,11 +33,13 @@ input {
     padding: 10px;
     font-size: large;
     height:50px;
-    border: none;
+    border: 2px solid #F24C4C;
     border-radius: 5px;
 
 }
-
+input[type='file'] {
+    border: none;
+}
 input:focus {
     outline-color: #F24C4C;
 }
@@ -41,6 +49,7 @@ input:focus {
     background-color: #F24C4C;
     color: #fff;
     text-align: center;
+    height: fit-content;
 }
 
 .submit:hover {
@@ -56,3 +65,33 @@ p {
     text-align: center;
     color: #fff;
 }
+
+@media  only screen and (max-width: 600px) {
+    input {
+        box-sizing: border-box;
+        width: 200px;
+        padding: 10px;
+        height: 30px;
+    }
+
+    form {
+        width: 95vw;
+        box-sizing: border-box;
+    }
+    h2, .header-name {
+        font-size: 20px;
+    }
+
+}
+
+@media  only screen and (max-width: 350px) {
+    .field {
+        display: block;
+    }
+    label {
+        text-align: left;
+        display: block;
+
+    }
+}
+

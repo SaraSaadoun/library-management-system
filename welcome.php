@@ -24,13 +24,12 @@
         <header>
         <div class="logo-section">
                 <img class="logo"src="imgs/logo.png">
-                <span><a class="header-name" href="home.php">Online Library</a></span>
+                <span><a class="header-name" href="home.php">Online <br>Library</a></span>
             </div>
         </header>
         <div class="bg">
             <div class="card">
                 <h1 class="txt">Welcome to our Library!</h1>
-                <q class="txt">A reader lives a thousand lives before he dies . . . The man who never reads lives only one.</q>
                 <form method="GET">
                 <input type="submit" name="login" class="login"value="Login">
                 <input type="submit" name="register" class="register" value="Register">
@@ -38,6 +37,6 @@
             </div>
 
         </div>
-        <footer>All copyrights are preserved CC <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script></footer>
+        <footer>Copyright © <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script> All Rights Reserved</footer>
     </body>
 </html>

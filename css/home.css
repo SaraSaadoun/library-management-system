@@ -60,7 +60,7 @@
     box-sizing: border-box;
     text-align: center;
     width: 80%;
-    background-color: #F3F3F3;
+    background-color: #fff;
     opacity: 90%;
     margin: 0px auto;
     padding: 10px;
@@ -144,11 +144,11 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin: 5px;
-
+    margin: 5px;    
 }
 .delete:hover {
     background-color: #DA2D2D;
+    
 }
 
 .edit:hover {
@@ -173,3 +173,26 @@ p {
     width: 100%;
     height: fit-content;
 }
+
+@media  only screen and (max-width: 600px) {
+    .search-form {
+        position: relative;
+        height: 60px;
+    }
+
+    .search-box {
+        width: calc(99%*2/3);
+
+    }
+
+    input.search {
+        width: calc(99%/3);
+        text-align: center;
+    }
+
+}
+
+/* @media  only screen and (max-width: 300px) {
+
+} */
+

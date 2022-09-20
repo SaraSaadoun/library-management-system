@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     <header>
         <div class="logo-section">
                 <img class="logo"src="imgs/logo.png">
-                <span><a class="header-name" href="home.php">Online Library</a></span>
+                <span><a class="header-name" href="home.php">Online<br> Library</a></span>
             </div>
     </header>
     <div class="bg">
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
             
         </form>
     </div>
-    <footer>All copyrights are preserved CC <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script></footer>
+    <footer>Copyright © <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script> All Rights Reserved</footer>
 
 </body>
 </html>

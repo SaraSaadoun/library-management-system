@@ -104,23 +104,20 @@
         <header>
             <div class="logo-section">
                     <img class="logo"src="imgs/logo.png">
-                    <span><a class="header-name" href="home.php">Online Library</a></span>
+                    <span><a class="header-name" href="home.php">Online<br> Library</a></span>
             </div>
             <div class="upper-right-btns">
                 <a class="profile" href="profileCard.php?id=<?=$rowUser['id']?>"><img class="profile-img"src="imgs/users/<?=$rowUser['avatar']?>"></a>
-                <a class="logout" href="logout.php">Logout</a>
+                <a class="logout" href="logout.php"><img alt="Logout" src="imgs/logout.png"></a>
             </div>
         </header>
         <div class="bg">
             <div class="card">
                 <form method="post" enctype="multipart/form-data">                    
-                    <div class="left">
                         <img class="cover" src="<?=$row['photo']?>">
                         <div class="field">
                             <input type="file" name="cover"  value="<?=isset($row['photo'])?$row['photo'] : ''?>">
                         </div>
-                    </div>
-                    <div class="right">
                         <div class="field">
                             <label for="title" >Book <br> Title</label>
                             <input type="text" name="title" required value="<?=isset($row['title'])? $row['title']:'';?>">
@@ -144,12 +141,11 @@
                         <br>
                         
                         <input type="submit" name="save"  class="submit" value="Save">
-                    </div>
                 </form>
             </div>
 
         </div>
-        <footer>All copyrights are preserved CC <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script></footer>
+        <footer>Copyright © <script type="text/javascript">let year = new Date().getFullYear(); document.write(year);</script> All Rights Reserved</footer>
         
     </body>
 </html>

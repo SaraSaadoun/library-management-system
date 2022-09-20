@@ -2,6 +2,7 @@
 body {
     font-family:"Inter", sans-serif;
     margin: 0;
+    position: relative;
 }
 
 .header-name {
@@ -18,6 +19,7 @@ header {
     justify-content: space-between;
     text-transform: uppercase;
     position: sticky;
+    top:0;
     background-color: #F24C4C;
     color: white;
     z-index: 2;
@@ -61,22 +63,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 35px;
     height: 35px;
     border: none;
     border-radius: 5px;
-    background-color: #F3F3F3;
-    color: #000;
-    font-size: 15px;
-    text-transform: capitalize;
-    font-weight: bolder;
-    text-decoration: none;
     margin-right: 10px;
 }
-
+.logout img {
+    width: 25px;
+}
 .logout:hover {
-    color: #fff;
-    background-color: #302f3e;
+    background-color: #DA2D2D;
 }
 
 .bg {
@@ -85,7 +82,7 @@ header {
     align-items: center;
     position: relative;
     height: 600px;
-    background-image: url("../imgs/lib_bg_blur2.png");
+    background-color: #f0f0f0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,4 +96,17 @@ footer {
     font-size: smaller;
     font-weight: bolder;
     background-color: #fff;
+}
+
+@media  only screen and (max-width: 600px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px 5px 0px 0px;
+        margin-right: 5px;
+    }
+
+    header {
+        padding: 0 5px;
+    }
 }
