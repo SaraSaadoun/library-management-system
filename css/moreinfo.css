@@ -19,7 +19,6 @@
     background-color: #fff;
     box-shadow: 10px 10px 30px lightgrey;
     position: relative;
-    
 }
 
 .card img {
@@ -27,10 +26,10 @@
     position: relative;
     top: 0;
 }
+
 .info {
     display: flex;
 }
-
 
 .property {
     font-weight: bolder;
@@ -58,7 +57,9 @@
 
 .info a:hover {
     background-position: right center; 
-    transition: all .5s ease-in-out;}
+    transition: all .5s ease-in-out;
+}
+
 .edit {
     margin-top: 33px;
 
@@ -71,8 +72,8 @@
         position: relative;
         top: 150px;
         height: fit-content;
-
     }
+
     .card img {
         position: relative;
         max-width: 280px;
@@ -88,6 +89,5 @@
         width: 98%;
         margin: auto;
     }    
-
 }
 

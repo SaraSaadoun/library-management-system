@@ -7,11 +7,10 @@ form {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 10px 10px 30px lightgrey;
-
 }
+
 h2 {
     text-align: center;
-
 }
 
 .field {
@@ -35,11 +34,12 @@ input {
     height:50px;
     border: 2px solid #ef4b5a;
     border-radius: 5px;
-
 }
+
 input[type='file'] {
     border: none;
 }
+
 input:focus {
     outline-color: #ef4b5a;
 }
@@ -56,7 +56,7 @@ input:focus {
 }
 
 .submit:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     transition: all .5s ease-in-out;
 }
 

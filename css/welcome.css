@@ -3,6 +3,7 @@
     background-image: url(../imgs/bg.png);
     top: -40px;
 }
+
 .card {
     padding: 0;
     font-weight: bold;
@@ -39,15 +40,12 @@
 
 .register:hover{
     background-color: #e0e0e0;
-    /* color: #fff; */
-
 }
 
 .login:hover {
     background-position: right center; 
     transition: all .5s ease-in-out;
 }
-
 
 q {
     display: block;
@@ -57,7 +55,6 @@ q {
     position: relative;
     width: 302px;
 }
-
 
 footer {
     padding: 5px;

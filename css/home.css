@@ -16,7 +16,6 @@
     margin: 0 auto;
     padding: 10px;
     border-radius: 0 0 5px 5px;
-
 }
 
 .search-box, .search {
@@ -32,7 +31,6 @@
     width: 400px;
     font-size: 20px;
     border: 2px solid #ef4b5a;
-
 }
 
 .search-box:focus{
@@ -47,8 +45,6 @@
     color: #fff;
     border: none;
     border-radius:5px;
-
-
 }
 
 .search:hover {
@@ -193,8 +189,3 @@ p {
     }
 
 }
-
-/* @media  only screen and (max-width: 300px) {
-
-} */
-
