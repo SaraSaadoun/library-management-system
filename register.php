@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
         $name = mysqli_escape_string($conn,$_POST['name']);
         $email = mysqli_escape_string($conn,$_POST['email']);
         $password = sha1($_POST['password']);
-        $q = "select * from users where name = '".$name."' or email ='".$email."' limit 1";
+        $q = "select * from users where email ='".$email."' limit 1";
         $res = mysqli_query($conn, $q);
         if($row = mysqli_fetch_assoc($res)){
             $error_fields[] = "duplicated email";
