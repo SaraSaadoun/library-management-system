@@ -33,7 +33,7 @@ input {
     padding: 10px;
     font-size: large;
     height:50px;
-    border: 2px solid #F24C4C;
+    border: 2px solid #ef4b5a;
     border-radius: 5px;
 
 }
@@ -41,19 +41,23 @@ input[type='file'] {
     border: none;
 }
 input:focus {
-    outline-color: #F24C4C;
+    outline-color: #ef4b5a;
 }
 
 .submit {
     width: 100px;
-    background-color: #F24C4C;
-    color: #fff;
+    background-image: linear-gradient(to right, #f77883 0%, #66b5ff 51%, #f77883 100%);
+    background-size: 200% auto;
+    transition: 0.6s;
     text-align: center;
     height: fit-content;
+    border: none;
+    color: #fff;
 }
 
 .submit:hover {
-    background-color: #DA2D2D;
+    background-position: right center; /* change the direction of the change here */
+    transition: all .5s ease-in-out;
 }
 
 p {

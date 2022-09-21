@@ -29,7 +29,8 @@
         </header>
         <div class="bg">
             <div class="card">
-                <h1 class="txt">Welcome to our Library!</h1>
+                <h1 class="txt">Welcome!</h1>
+                <q>A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.</q>
                 <form method="GET">
                 <input type="submit" name="login" class="login"value="Login">
                 <input type="submit" name="register" class="register" value="Register">

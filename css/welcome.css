@@ -1,16 +1,16 @@
 .bg {
     display: block;
     background-image: url(../imgs/bg.png);
-    top: -22px;
+    top: -40px;
 }
 .card {
     padding: 0;
     font-weight: bold;
     text-align: center;
     position: relative;
-    top: 172px;
+    top: 112px;
     left: 164px;
-    width: 313px;
+    width: 350px;
     font-weight: bold;
     text-align: center;
 }
@@ -23,36 +23,39 @@
     font-weight: bold;
     font-size: large;
     border: none;
+    border-radius: 5px;
 }
 
 .register {
-    border: 4px solid #F24C4C;
-    background: none;
+    background-color: #fff;
     color: black;
 }
 
 .login {
-    background-color:#F24C4C ;
+    background-image: linear-gradient(to right, #f77883 0%, #66b5ff 51%, #f77883 100%);
+    background-size: 200% auto;
+    transition: 0.6s;
 }
 
 .register:hover{
-    background-color: white;
-    border-color: #DA2D2D;
+    background-color: #e0e0e0;
+    /* color: #fff; */
+
 }
 
 .login:hover {
-    background-color: #DA2D2D;
+    background-position: right center; 
+    transition: all .5s ease-in-out;
 }
-
-
-
 
 
 q {
     display: block;
+    margin: auto;
     margin-bottom: 60px;
-    padding: 0px 100px;
     font-size: 20px;
+    position: relative;
+    width: 302px;
 }
 
 

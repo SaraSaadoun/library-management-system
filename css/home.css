@@ -11,7 +11,7 @@
     box-sizing: border-box;
     font-size: 25px;
     color: #F24C4C;
-    background-color: #e1d5d5;
+    background-color: #fff;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -31,6 +31,7 @@
 .search-box {
     width: 400px;
     font-size: 20px;
+    border: 2px solid #ef4b5a;
 
 }
 
@@ -42,15 +43,16 @@
     width: 120px;
     height: 45px;
     font-size: 20px;
-    background-color: #F24C4C;
+    background-color: #ef4b5a;
     color: #fff;
     border: none;
     border-radius:5px;
 
+
 }
 
 .search:hover {
-    background-color:#DA2D2D;
+    background-color:#e03145;
 }
 
 .books-container {

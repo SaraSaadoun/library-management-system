@@ -26,19 +26,19 @@ label {
 }
 
 input:focus {
-    outline-color: #F24C4C;
+    outline-color: #ef4b5a;
 }
 
 #login {
     display: inline-block;
     width: 130px;
-    background-color: #F24C4C;
+    background-color: #ef4b5a;
     color: #fff;
     text-align: right;
 }
 
 #login:hover {
-    background-color: #DA2D2D;
+    background-color: #e03145;
 }
 
 p {

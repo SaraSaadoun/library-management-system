@@ -21,6 +21,7 @@ header {
     position: sticky;
     top:0;
     background-color: #F24C4C;
+    background-image: linear-gradient(to right, #f77883, #66b5ff);
     color: white;
     z-index: 2;
 }
@@ -36,7 +37,11 @@ header {
     border-radius: 5px 5px 0px 0px;
     margin-right: 10px;
 }
-
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 .upper-right-btns {
     display: flex;
     align-items: center;
@@ -73,7 +78,7 @@ header {
     width: 25px;
 }
 .logout:hover {
-    background-color: #DA2D2D;
+    background-color: #529de5;
 }
 
 .bg {
@@ -81,7 +86,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 600px;
+    height: 100vh;
     background-color: #f0f0f0;
     background-size: cover;
     background-repeat: no-repeat;

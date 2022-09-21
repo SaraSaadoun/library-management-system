@@ -48,16 +48,17 @@
     margin: x;
     right: 20px;
     color: #fff;
-    background-color: #F24C4C;
-    text-decoration: none;
+    background-image: linear-gradient(to right, #f77883 0%, #66b5ff 51%, #f77883 100%);
+    background-size: 200% auto;
+    transition: 0.6s;    text-decoration: none;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
 }
 
 .info a:hover {
-    background-color: #DA2D2D;
-}
+    background-position: right center; 
+    transition: all .5s ease-in-out;}
 .edit {
     margin-top: 33px;
 

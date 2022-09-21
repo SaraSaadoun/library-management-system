@@ -74,7 +74,7 @@
         </header>
         <div class="bg">
             <div class="card">
-                <form method="post" enctype="multipart/form-data">                    
+                <form method="post" enctype="multipart/form-data" class="edit-profile">                    
                         <img class="avatar" src="imgs/users/<?=$row['avatar']?>">
                         <div class="field">
                             <input type="file" name="avatar"  value="imgs/<?=$row['avatar']?>">
@@ -90,6 +90,7 @@
                             <label for="email">Email</label>
                             <input type="email" name="email" value="<?=isset($row['email'])?$row['email'] : ''?>">
                         </div>
+                        <br>
                         <br>
                         <div class="field">
                             <input type="submit" name="save"  class="submit" value="Save">
