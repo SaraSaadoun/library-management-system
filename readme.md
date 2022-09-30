@@ -1,12 +1,14 @@
-# 3D-Game-Project
+# Simple Library Management System
+
 
 <p>Project: Simple Library Management System (web application using PHP)</p>
 <h6>NOTE : I do NOT own images or icons used in this project</p>
 <h2> Table of content </h2>
 <li><a href="#1">Description</a> </li>
 <li><a href="#2">Extra Stuff I've added</a></li>
-<li><a href="#3">Video Link </a></li>
-<li><a href="#4">Screenshots </a></li>
+<li><a href="#3">Implemented with </a></li>
+<li><a href="#4">Video Link </a></li>
+<li><a href="#5">Screenshots </a></li>
 
 <h2 id ="1"> Description </h2>
 A web application to manage Library with this features: <br><br>
@@ -37,10 +39,20 @@ User
     <li>Attractive GUI inaddition to responsive design to the website</li>
 </ul>
 
-<h2 id="3"> Video </h2> 
+
+<h2 id ="3"> Implemented with </h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>mysql</li>
+</ul>
+
+
+<h2 id="4"> Video </h2> 
 <a href="https://drive.google.com/file/d/1-BqfCtPz3GnbmF49F3_atBadrd1Q03yF/view?usp=sharing">Click Here</a>
 
-<h2 id="4"> Screenshots </h2>
+<h2 id="5"> Screenshots </h2>
 <p>Welcome page</p>
 
 ![1](https://user-images.githubusercontent.com/68401001/193232637-f231412f-079d-4907-af49-890f92231c7a.PNG)
